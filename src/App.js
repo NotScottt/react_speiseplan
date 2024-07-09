@@ -47,7 +47,7 @@ function App() {
               <td>Windows 10/11</td>
               <td>1.0</td>
               <td>08.07.2024</td>
-              <td><a href="https://github.com/NotScottt/NotScottt.github.io/archive/refs/tags/Speiseplan_v.1.0.zip" download>Speiseplan_v.1.0.zip</a></td>
+              <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/Speiseplan.zip" download>Speiseplan_v.1.0.zip</a></td>
               <td>/</td>
             </tr>
             <tr>
@@ -56,8 +56,17 @@ function App() {
               <td>Windows 10/11</td>
               <td>1.0</td>
               <td>08.07.2024</td>
-              <td><a href="https://github.com/NotScottt/NotScottt.github.io/archive/refs/tags/Speiseplan_v.1.0.zip" download>Speiseplan_v.1.0.zip</a></td>
+              <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/folder.zip" download>internal.zip</a></td>
               <td>~ 270MB</td>
+            </tr>
+            <tr>
+              <td>Gebündelt</td>
+              <td></td>
+              <td>Windows 10/11</td>
+              <td>1.0</td>
+              <td>08.07.2024</td>
+              <td><a href="https://github.com/NotScottt/NotScottt.github.io/archive/refs/tags/Speiseplan_v.1.0.zip" download>Gebündelt</a></td>
+              <td>~ 300MB</td>
             </tr>
           </tbody>
         </table>
