@@ -99,3 +99,15 @@ h1 {
 #installationDiv {
   text-align: left;
 }
+
+#infoButton1, #infoButton2 {
+ cursor: pointer; 
+}
+
+#speiseplanTag {
+  margin-left: 1%;
+}
+
+#horLine {
+  margin-top: 5%;
+}

@@ -25,10 +25,12 @@ function App() {
     
   }
 
+  function alertForDownload() {
+    alert("Hello World")
+  }
+
   return (
     <div className='mainCont'>
-      <h1>Speiseplan GUI</h1>
-
       <div className='tableDiv'>
         <table className='table table-hover'>
           <thead>
@@ -56,7 +58,7 @@ function App() {
               <td>Windows 10/11</td>
               <td>1.0</td>
               <td>08.07.2024</td>
-              <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/folder.zip" download>internal.zip</a></td>
+              <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/folder.zip" onclick={alertForDownload}>internal.zip</a></td>
               <td>~ 270MB</td>
             </tr>
             <tr>
@@ -71,6 +73,8 @@ function App() {
           </tbody>
         </table>
 
+        
+        
         <h2 id='installationHeader'>Installation</h2>
         <div id='installationDiv'>Die Installationsanleitung befindet sich <a href='https://github.com/NotScottt/react_speiseplan/blob/main/README.md'>hier</a>.</div>
       </div>
