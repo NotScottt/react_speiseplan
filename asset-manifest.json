@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react_speiseplan/static/css/main.803586d6.css",
-    "main.js": "/react_speiseplan/static/js/main.5f112c2f.js",
+    "main.js": "/react_speiseplan/static/js/main.a5d2e1bf.js",
     "static/js/453.fe897364.chunk.js": "/react_speiseplan/static/js/453.fe897364.chunk.js",
     "index.html": "/react_speiseplan/index.html",
     "main.803586d6.css.map": "/react_speiseplan/static/css/main.803586d6.css.map",
-    "main.5f112c2f.js.map": "/react_speiseplan/static/js/main.5f112c2f.js.map",
+    "main.a5d2e1bf.js.map": "/react_speiseplan/static/js/main.a5d2e1bf.js.map",
     "453.fe897364.chunk.js.map": "/react_speiseplan/static/js/453.fe897364.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.803586d6.css",
-    "static/js/main.5f112c2f.js"
+    "static/js/main.a5d2e1bf.js"
   ]
 }
