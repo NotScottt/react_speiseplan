@@ -85,7 +85,7 @@ function App() {
               <td>1.0</td>
               <td>08.07.2024</td>
               {showItems[2] ? (
-                <td><a href="https://github.com/NotScottt/NotScottt.github.io/archive/refs/tags/" download>Gebündelt</a></td>
+                <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/BundlePlan.zip" download>Gebündelt</a></td>
               ) : (
                 <ItemNotAvailable />
               )}
