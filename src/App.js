@@ -29,6 +29,14 @@ function App() {
     alert("Hello World")
   }
 
+  const ItemNotAvailable = () => {
+    return(
+      <td>Aktuell nicht verfügbar.</td>
+    )
+  } 
+
+  const showItems = [false, false, true]
+
   return (
     <div className='mainCont'>
       <div className='tableDiv'>
@@ -49,7 +57,11 @@ function App() {
               <td>Windows 10/11</td>
               <td>1.0</td>
               <td>08.07.2024</td>
-              <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/Speiseplan.zip" download>Speiseplan_v.1.0.zip</a></td>
+              {showItems[0] ? (
+                <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/" download>Speiseplan_v.1.0.zip</a></td>
+              ) : (
+                <ItemNotAvailable />
+              )}
               <td>/</td>
             </tr>
             <tr>
@@ -58,7 +70,12 @@ function App() {
               <td>Windows 10/11</td>
               <td>1.0</td>
               <td>08.07.2024</td>
-              <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/folder.zip" onclick={alertForDownload}>internal.zip</a></td>
+              {showItems[1] ? (
+                <td><a href="https://github.com/NotScottt/react_speiseplan/archive/refs/tags/" onclick={alertForDownload}>internal.zip</a></td>
+              ) : (
+                <ItemNotAvailable />
+              )}
+              
               <td>~ 270MB</td>
             </tr>
             <tr>
@@ -67,7 +84,11 @@ function App() {
               <td>Windows 10/11</td>
               <td>1.0</td>
               <td>08.07.2024</td>
-              <td><a href="https://github.com/NotScottt/NotScottt.github.io/archive/refs/tags/Speiseplan_v.1.0.zip" download>Gebündelt</a></td>
+              {showItems[2] ? (
+                <td><a href="https://github.com/NotScottt/NotScottt.github.io/archive/refs/tags/" download>Gebündelt</a></td>
+              ) : (
+                <ItemNotAvailable />
+              )}
               <td>~ 300MB</td>
             </tr>
           </tbody>
